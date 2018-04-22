@@ -30,7 +30,7 @@ Communication:
 Setting up a PC:
   1.Buy a pc in a way that cannot be traced back to you (Cash,Monero,Tumbled Bitcoind exchanged for Monero)
   2.Remove the Hard disk.
-  3.Use TAILS live boot
+  3.Use TAILS live boot, NOTE TAILS OS overwrites the ram and shuts off if the usb key is pulled out.
   4.Configure TOR as your global SOCKS proxy and block all other traffic
   5.Use it only as a terminal,ssh,rdp,X client.
   6.Consider changing laptops frequently.
