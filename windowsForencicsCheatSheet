@@ -1,6 +1,8 @@
 Written for windows 7 ultimate 6.1 Built Number 7601
 This cheat sheet is windows specific. General forencics practices are not mentioned (like undeleting files)
 Most those actions can be done with any registry extractor and parser
+This file is a compilation of https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf
+
 
 NOTE: There may by unwritten data conserning the registry in the .log files in the same folder as the registry files.
 
