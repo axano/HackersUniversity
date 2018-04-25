@@ -1,0 +1,84 @@
+Written for windows 7 ultimate 6.1 Built Number 7601
+This cheat sheet is windows specific. General forencics practices are not mentioned (like undeleting files)
+Most those actions can be done with any registry extractor and parser
+
+NOTE: There may by unwritten data conserning the registry in the .log files in the same folder as the registry files.
+
+Q:Recent opened files?
+A:User\informant\AppData\Roaming\Microsoft\Windows\Recent\*.lnk
+
+Q:Install information detali?
+A:HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+
+Q:Time Zone?
+A:HKLM\SYSTEM\ControlSet###\Control\TimeZoneInformation
+
+Q:Computer Name?
+A:HKLM\SYSTEM\ControlSet###\Control\ComputerName\ComputerName (value: ComputerName)
+A:HKLM\SYSTEM\ControlSet###\Services\Tcpip\Parameters (value: Hostname)
+
+Q:Users on system?
+A: HKLM\SAM\~ -> %windir%\system32\config\SAM && SYSTEM -> %windir%\system32\config\SYSTEM
+
+Q:Last logged on user?
+A: HKLM\SAM\~ -> %windir%\system32\config\SAM
+
+Q:Last shutdown time
+A:HKLM\SYSTEM\ControlSet###\Control\Windows (value: ShutdownTime)
+
+Q:Programs installed after OS?
+A:HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\~
+A:HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\~
+
+Q:application executionlogs?
+A:HKU\informant\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\*
+A:\Windows\Prefetch\*.pf
+A:\Users\informant\AppData\Local\IconCache.db
+
+Q:Timeframe of logoff and logon?
+A:-Security event logs
+A:-Event IDs for Windows Vista or higher
+
+Q:keywords at the search bar in Windows Explorer.
+A:HKU\informant\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery\
+
+Q:application was used for e-mail communication?
+A:HKLM\SOFTWARE\Classes\mailto\shell\open\command  (Microsoft Outlook)
+A:HKLM\SOFTWARE\Clients\Mail(Microsoft Outlook)
+A:HKU\informant\Software\Microsoft\Office\15.0\Outlook
+
+Q:where are e-mail files located?
+A:HKEY_USERS\informant\Software\Microsoft\Office\15.0\Outlook\Search
+A:HKEY_USERS\informant\Software\Microsoft\Office\15.0\Outlook\PST
+
+Q:Deleted e-mail's?
+A:OST file parsing(if not encrypted) Inbox, Deleted Items, Contact, and Calenda
+
+Q:external storage devices attached to PC?
+A:HKLM\SYSTEM\MountedDevices\
+A:HKLM\SYSTEM\ControlSet###\Enum\USBSTOR\
+A:HKLM\SYSTEM\ControlSet###\Control\DeviceClasses\{a5dcbf10-6530-11d2-901f-00c04fb951ed}\
+A:HKLM\SYSTEM\ControlSet###\Control\DeviceClasses\{53f56307-b6bf-11d0-94f2-00a0c91efb8b}\
+
+Q:IP of network shares?
+A:HKU\informant\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\
+A:HKU\informant\Software\Microsoft\Windows\CurrentVersion\Explorer\Map Network Drive MRU\
+
+Q:List accessed dir's of external drive and all other folders?
+A:HKU\informant\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\*
+
+Q:What a method (or software) was used for burning CD-R?
+A:System event logs
+
+Q:Printers connected to pc?
+A:HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\
+
+Q:Where are‘Thumbcache’ files located?
+A:\Users\User\AppData\Local\Microsoft\Windows\Explorer\
+
+Q:sticky notes?
+A:C:\Users\username\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\ (w10 aniversary ed.)
+A:C:\Users\username\AppData\Roaming\Microsoft\Sticky Notes\StickyNotes.snt
+
+Q:Recycle bin contents?
+A:C:\$Recycle.Bin
