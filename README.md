@@ -16,3 +16,5 @@ The guides are made as abstract as possible though giving the edge of the rope s
 3.Share the knowledge, you probably recieved it also for free.
 
 4.Search for a mentor, if you think you have enough knowledge though search for a mentee.
+
+5.It doens't matter on which side you are, as long as the struggle goes on, there will be a need for evolution.
