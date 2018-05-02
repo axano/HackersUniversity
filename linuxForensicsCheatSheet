@@ -1,0 +1,41 @@
+Written for Kali Linux 2018.1
+This cheat sheet is linux specific. General forencics practices are not mentioned (like undeleting files)
+
+Q:Basic information about os?
+A:/etc/os-release
+
+Q:Timezone info?
+A:/etc/timezone
+
+Q:Login activities of users?
+A:/var/log/auth.log
+
+Q:Users?
+A:/etc/passwd
+
+Q:Log messegas about system?
+A:/var/log/syslog
+
+Q:Kernel operations?
+A:dmesg
+
+Q:Mounts?
+A:/etc/fstab
+
+Q:Who is logged in?
+A:who
+
+Q:Who is logged in and what is he doing?
+A:w
+
+Q:List of last logged on users?
+A:last
+
+Q:List of failed logins?
+A:lastb
+
+Q:Most recent login of users?
+A:lastlog
+
+Q:Command history?
+A:~/.bash_history
