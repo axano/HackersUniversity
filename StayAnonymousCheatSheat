@@ -15,7 +15,7 @@ Passphrase must:
   6.Must never be reused.
   7.Create password from random words using diceware method.
   
-  8.Use 2 factor authentication where available
+  8.Use 2 factor authentication where available.
   9.You may be forced to tell your password,
     to prevent this make a password creation routine so that the actual password is impossible to remember.
     Remember the procedure to recreate your password, or you can split the password in 2 and give the other half
@@ -70,3 +70,26 @@ Good to knows:
    7.Do take a cell phone with you on a rally/protest.
    8.Traffic reports are based on the time a cell phone needs to change mast.
    9.Disable WiFi autoconnect.
+
+Browser Privacy:
+   1.Use Mozilla Firefox with the following extensions for added privacy:
+	~Ublock Origin     --> Blocks advertising
+	~Privacy Badger    --> Blocks trackers from tracking you across the web
+	~Cookie Autodelete --> Deletes the cookies a website stores when you close a tab
+	~Https Everywhere  --> Forces a Website you visit to use Https(http over ssl/tls)
+   2.Delete browsing history everytime you close Firefox. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
