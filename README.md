@@ -13,7 +13,7 @@ The guides are made as abstract as possible though giving the edge of the rope s
 
 2.Try reading as much as you can, the rule of thumb is 1 book each week, although there are days that I read 600 pages.
 
-3.Share the knowledge, you probably recieved it also for free.
+3.Share the knowledge, you probably received it also for free.
 
 4.Search for a mentor, if you think you have enough knowledge though search for a mentee.
 
