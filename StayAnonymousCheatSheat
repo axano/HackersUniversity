@@ -30,7 +30,7 @@ Communication:
    7.Tor is only truly anonymous if the exit and entry node is not associated.
    8.Buy VPN subscription using information that cannot be traced back to you,
      pay using tumbled bitcoin that are aquired using monero.
-    
+   9.DISABLE ipv6 as it can leak your IP.
      
 Setting up a PC:
   1.Buy a pc in a way that cannot be traced back to you (Cash,Monero,Tumbled Bitcoind exchanged for Monero)
