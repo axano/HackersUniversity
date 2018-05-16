@@ -1,4 +1,4 @@
-THIS GUIDE IS FOR EDUCATIONAL PURPOUSES ONLY!
+THIS GUIDE IS FOR EDUCATIONAL PURPOSES ONLY! [WE DON'T HOLD ANY RESPONSIBILITY IF YOU MISUSE THE INFO]
 This article is a synopsis of kevin mitnicks book "The art of invincibility" with extra personal research.
 
 If you think that I am paranoid have a look at this research and the solution of it to see what our 
@@ -13,12 +13,15 @@ Passphrase must:
   4.Not be a derivative of another password you have already used.
   5.Or creation procedure must be memorized and never be written.
   6.Must never be reused.
+  7.Create password from random words using diceware method.
   
-  7.Use 2 factor authentication where available
-  8.You may be forced to tell your password,
+  8.Use 2 factor authentication where available
+  9.You may be forced to tell your password,
     to prevent this make a password creation routine so that the actual password is impossible to remember.
     Remember the procedure to recreate your password, or you can split the password in 2 and give the other half
     to somebody that will not be forced to hand it over.
+  10.Use a password manager such as (LastPass,Keepass) and manage all passwords from a file which is locked with a master
+     password.
   
 Communication:
    1.Use anonymous email servers like protonmail, tutanota, tormail.
@@ -26,11 +29,12 @@ Communication:
    3.Encrypt like everybody is watching (believe me, they are...).
    4.Never use the same devices you use in your everyday life for an undercover job.
    5.If you use a phone, use a burner phone that is not related to you.
-   6.Do not carry other electronic devices that  can be traced back to you while using anonymous devices.
+   6.Do not carry other electronic devices that can be traced back to you while using anonymous devices.
    7.Tor is only truly anonymous if the exit and entry node is not associated.
    8.Buy VPN subscription using information that cannot be traced back to you,
      pay using tumbled bitcoin that are aquired using monero.
    9.DISABLE ipv6 as it can leak your IP.
+   10.Use messaging apps with end-to-end encryption like Signal or Telegram.
      
 Setting up a PC:
   1.Buy a pc in a way that cannot be traced back to you (Cash,Monero,Tumbled Bitcoind exchanged for Monero)
@@ -44,23 +48,23 @@ Setting up a PC:
   9.Change MAC address BEFORE connecting to a public access point.
   10.NEVER turn on personal devices together with your laptop (smartwartches, portable phones, e.t.c)
   11.Buy a VPS using information that cannot be traced back to you,
-    pay using tumbled bitcoin that are aquired using monero.
+     pay using tumbled bitcoin that are aquired using monero.
   12.Choose a pc that does not have a microphone or a camera, or brick them by removing the wires.
   
   Data storage:
-   1.Avoid storing data. Store data only if remembering it is impossible.
-   2.ALWAYS encrypt your data using PROVEN unbreakable in a lifetime algorithms (AES-256), keep quantum computing in mind.
+   1.Avoid storing data. Store data only if remembering is impossible.
+   2.ALWAYS encrypt your Hard-drive/data using PROVEN unbreakable in a lifetime algorithms (AES-256), keep quantum computing in mind.
    3.If you want to wipe a disk, pass it 36 times (keep electron microscopes in mind) using a 0,1,random pattern cyclus.
    4.Set up a autodestroy password so that you can fool attackers to enter this password and destroy the data.
-   5.Do NOT use ssd's
+   5.Do NOT use ssd's.
    6.Physically protect the storage medium.
 
 Good to knows:
    1.You can be identified while browsing even when javascript is disabled (html5 canvas).
    2.Proxy use can be detected with latency comparison.
-   3.Using bitcoins without extra precaution is traceble
+   3.Using bitcoins without extra precaution is traceble.
    4.CCTV systems can be blinded with (infrared) light.
-   5.Browser cookies can be  stored outside of the browser.
+   5.Browser cookies can be stored outside of the browser.
    6.GSM probes are logged in masts even if you dont call.
    7.Do take a cell phone with you on a rally/protest.
    8.Traffic reports are based on the time a cell phone needs to change mast.
