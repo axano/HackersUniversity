@@ -4,12 +4,12 @@ Most those actions can be done with any registry extractor and parser
 This file is a compilation of https://www.cfreds.nist.gov/data_leakage_case/leakage-answers.pdf
 
 
-NOTE: There may by unwritten data conserning the registry in the .log files in the same folder as the registry files.
+NOTE: There may be unwritten data conserning the registry in the .log files in the same folder as the registry files.
 
 Q:Recent opened files?
 A:User\informant\AppData\Roaming\Microsoft\Windows\Recent\*.lnk
 
-Q:Install information detali?
+Q:Install information detail?
 A:HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion
 
 Q:Time Zone?
@@ -25,14 +25,14 @@ A: HKLM\SAM\~ -> %windir%\system32\config\SAM && SYSTEM -> %windir%\system32\con
 Q:Last logged on user?
 A: HKLM\SAM\~ -> %windir%\system32\config\SAM
 
-Q:Last shutdown time
+Q:Last shutdown time?
 A:HKLM\SYSTEM\ControlSet###\Control\Windows (value: ShutdownTime)
 
 Q:Programs installed after OS?
 A:HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\~
 A:HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\~
 
-Q:application executionlogs?
+Q:Application executionlogs?
 A:HKU\informant\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\*
 A:\Windows\Prefetch\*.pf
 A:\Users\informant\AppData\Local\IconCache.db
@@ -41,15 +41,15 @@ Q:Timeframe of logoff and logon?
 A:-Security event logs
 A:-Event IDs for Windows Vista or higher
 
-Q:keywords at the search bar in Windows Explorer.
+Q:Keywords at the search bar in Windows Explorer.
 A:HKU\informant\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery\
 
-Q:application was used for e-mail communication?
+Q:Application was used for e-mail communication?
 A:HKLM\SOFTWARE\Classes\mailto\shell\open\command  (Microsoft Outlook)
 A:HKLM\SOFTWARE\Clients\Mail(Microsoft Outlook)
 A:HKU\informant\Software\Microsoft\Office\15.0\Outlook
 
-Q:where are e-mail files located?
+Q:Where are e-mail files located?
 A:HKEY_USERS\informant\Software\Microsoft\Office\15.0\Outlook\Search
 A:HKEY_USERS\informant\Software\Microsoft\Office\15.0\Outlook\PST
 
