@@ -7,6 +7,8 @@ The guides are made as abstract as possible though giving the edge of the rope s
 
 ### USE THE INTERNET AS IT WAS DESIGED TO BE AND NOT FOR SELLING YOURSELF FOR FREE ON THE SOCIAL MEDIA...
 
+### WARNING ONLY THE MASTER BRANCH IS VERIFIED AND SCRUTINIZED USE OTHER BRANCHES ON OWN RISK!!!!
+
 ### General:
 
 1.Knowledge is power, the internet has revolutionised the way knowledge is distributed. Use it...
