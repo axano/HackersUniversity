@@ -36,7 +36,9 @@ Communication:
      pay using tumbled bitcoin that are aquired using monero.
    9.DISABLE ipv6 as it can leak your IP.
    10.Use messaging apps with end-to-end encryption like Signal or Telegram.
-     
+   11.Many law enforcements (europe also) monitor the traffic type (not the content),
+      if they see that the traffic is constantly encrypted (VPN) they may issue a proactive search.
+   
 Setting up a PC:
   1.Buy a pc in a way that cannot be traced back to you (Cash,Monero,Tumbled Bitcoind exchanged for Monero)
   2.Disable the hard disk in the BIOS, you can remove the hard disk but this will make the pc suspicious.
