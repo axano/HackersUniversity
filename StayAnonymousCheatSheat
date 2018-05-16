@@ -24,8 +24,9 @@ Passphrase must:
      password.
   
 Communication:
-   1.Use anonymous email servers like protonmail, tutanota, tormail.
-   2.Encrypt your communication (for instace PGP) and share the keys on an alternative data stream (disposable usb key).
+   1.Use anonymous email servers that are verified,
+      many email providers will still cooperate with the law even though they claim not to.
+   2.Encrypt your communication and share the keys on an alternative data stream (disposable usb key).
    3.Encrypt like everybody is watching (believe me, they are...).
    4.Never use the same devices you use in your everyday life for an undercover job.
    5.If you use a phone, use a burner phone that is not related to you.
@@ -38,7 +39,7 @@ Communication:
      
 Setting up a PC:
   1.Buy a pc in a way that cannot be traced back to you (Cash,Monero,Tumbled Bitcoind exchanged for Monero)
-  2.Remove the Hard disk.
+  2.Disable the hard disk in the BIOS, you can remove the hard disk but this will make the pc suspicious.
   3.Use TAILS live boot, NOTE TAILS OS overwrites the ram and shuts off if the usb key is pulled out.
   4.Configure TOR as your global SOCKS proxy and block all other traffic
   5.Use it only as a terminal,ssh,rdp,X client.
@@ -56,7 +57,7 @@ Setting up a PC:
    2.ALWAYS encrypt your Hard-drive/data using PROVEN unbreakable in a lifetime algorithms (AES-256), keep quantum computing in mind.
    3.If you want to wipe a disk, pass it 36 times (keep electron microscopes in mind) using a 0,1,random pattern cyclus.
    4.Set up a autodestroy password so that you can fool attackers to enter this password and destroy the data.
-   5.Do NOT use ssd's.
+   5.Do NOT use SSD's, chips on them store a lot of metadata.
    6.Physically protect the storage medium.
 
 Good to knows:
