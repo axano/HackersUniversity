@@ -9,8 +9,8 @@ SUMMARY
 What I usually do is 
   0.use public network
   1.connect to anonymous vpn. (Bought with monero or at least tumbled btc and registered with protonmail which email is also registered on an anonymous way)
-  2.ssh over tor to anonymous vps. (Bought with monero or at least tumbled btc and registered with protonmail which email is also registered on an anonymous way)
-  3.torify all trafic of vps
+  2.ssh over tor (tails OS does this out of the box)to anonymous vps. (Bought with monero or at least tumbled btc and registered with protonmail which email is also registered on an anonymous way)
+  3.torify all traftic of vps
   
 TLDR;
 Passwords:
