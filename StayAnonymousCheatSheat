@@ -5,12 +5,14 @@ If you think that I am paranoid have a look at this research and the solution of
 friend "Bill" stores for us.....
 https://www.cfreds.nist.gov/data_leakage_case/data-leakage-case.html
 
+SUMMARY
 What I usually do is 
   0.use public network
-  1.connect to anonymous vpn.
-  2.ssh over tor to anonymous vps.
+  1.connect to anonymous vpn. (Bought with monero or at least tumbled btc and registered with protonmail which email is also registered on an anonymous way)
+  2.ssh over tor to anonymous vps. (Bought with monero or at least tumbled btc and registered with protonmail which email is also registered on an anonymous way)
   3.torify all trafic of vps
   
+TLDR;
 Passwords:
 Passphrase must:
   1.Be 20+ characters long.
